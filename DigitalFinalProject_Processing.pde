@@ -59,7 +59,7 @@ void draw() {
      x = x - 1;
     }
   }
-  //if the rainbow mofe button isn't pressed, use the sent RGB values to set the color of the line
+  //if the rainbow mode button isn't pressed, use the sent RGB values to set the color of the line
    else{
      colorMode(RGB, 255, 255, 255);
      stroke(BrightnessRed,BrightnessGreen,BrightnessBlue);
@@ -125,7 +125,7 @@ void draw() {
 void serialEvent(Serial myPort) { 
   // read the serial buffer:
   String myString = myPort.readStringUntil('\n');
-  // if you got any bytes other than the linefeed:
+  //if recieved any bytes other than the linefeed:
     myString = trim(myString);
     // split the string at the commas
     // then convert the sections into integers:
