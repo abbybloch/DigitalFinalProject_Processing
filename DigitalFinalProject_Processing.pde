@@ -67,7 +67,7 @@ void draw() {
    }
   
    
-//for all the movemebt directions, a buffer is created so it wont draw outside of the screen section on the image being used as the background
+//for all the movement directions, a buffer is created so it wont draw outside of the screen section on the image being used as the background - line cant move behond that pixel number
   
   //move up if val = 0
     if (val == 1){
