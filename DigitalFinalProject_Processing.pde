@@ -1,4 +1,4 @@
-//Processing part of the Musical Etch-A-Sketch
+//Processing part of the Musical Etch-A-Sketch:
 
 import processing.serial.*;     // import the Processing serial library
 Serial myPort;                  // The serial port
